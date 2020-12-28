@@ -1,0 +1,6 @@
+apiVersion: kubeadm.k8s.io/v1beta2
+kind: ClusterConfiguration
+kubernetesVersion: stable
+controlPlaneEndpoint: "k8s1.ks-pic.local:6443"
+networking:
+  podSubnet: 192.168.0.0/16

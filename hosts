@@ -1,0 +1,18 @@
+
+# node
+10.42.117.121   ks-kubeadm-001 ks-kubeadm-001.ks-pic.local
+10.42.117.121   ks-kubeadm-002 ks-kubeadm-002.ks-pic.local
+10.42.117.123   ks-kubeadm-003 ks-kubeadm-003.ks-pic.local
+10.42.117.124   ks-kubeadm-004 ks-kubeadm-004.ks-pic.local
+10.42.117.125   ks-kubeadm-005 ks-kubeadm-005.ks-pic.local
+10.42.117.126   ks-kubeadm-006 ks-kubeadm-006.ks-pic.local
+10.42.117.127   ks-kubeadm-007 ks-kubeadm-007.ks-pic.local
+
+# haproxy
+10.42.117.127   k8s1 k8s1.ks-pic.local
+
+
+
+
+
+
