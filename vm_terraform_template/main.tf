@@ -117,6 +117,16 @@ resource "vsphere_virtual_machine" "vm" {
     thin_provisioned = data.vsphere_virtual_machine.template.disks.0.thin_provisioned
   }
 
+## Add disk
+  disk {
+    label            = "disk0"
+    size             = 100
+    eagerly_scrub    = data.vsphere_virtual_machine.template.disks.0.eagerly_scrub
+    thin_provisioned = data.vsphere_virtual_machine.template.disks.0.thin_provisioned
+    unit_number      = 1
+  }
+
+#image clone
   clone {
     template_uuid = data.vsphere_virtual_machine.template.id
 
